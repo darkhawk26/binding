@@ -35,7 +35,9 @@ const RegistrationForm = () => {
         </fieldset>
       </form>
 
-      
+      <p>Въведено име: {name}</p>
+      <p>Въведен имейл: {email}</p>
+      <p>Въведена парола: {password}</p>
     </>
   );
 };
